@@ -1,0 +1,204 @@
+/*******************************************************************************
+ * colors for the web site
+ *******************************************************************************/
+
+/*-----------------------------------------------------------------*/
+body {
+	background:         #DFDFDF;
+	color:              #000000;
+}
+
+/*-----------------------------------------------------------------*/
+a:link                    { color:      #7F007F }    
+a:visited                 { color:      #7F007F }   
+a:active                  { color:      #7F007F }   
+a:hover                   { background: #7F007F; color: #FFFFFF } 
+
+.site-menu-cell a:link    { color:      #FFFF7F }    
+.site-menu-cell a:visited { color:      #FFFF7F }   
+.site-menu-cell a:active  { color:      #FFFF7F }   
+.site-menu-cell a:hover   { background: #FFFF7F; color: #990099 } 
+
+.site-footer a:link       { color:      #FFFF7F }    
+.site-footer a:visited    { color:      #FFFF7F }   
+.site-footer a:active     { color:      #FFFF7F }   
+.site-footer a:hover      { background: #FFFF7F; color: #990099 } 
+
+/*-----------------------------------------------------------------*/
+h1,h2,h3,h4,h5,
+.site-header,
+.site-footer,
+.site-menu-cell {
+	background:         #990099;
+	color:              #FFFF7F;
+}
+
+h1,h2,h3,h4,h5 {
+    border-width:       4;
+    border-style:       solid;
+    border-color:       #FFFF7F;
+}
+
+.site-footer {
+    border-top-color:       #FFFF7F;
+}
+
+/*-----------------------------------------------------------------*/
+pre, xmp {
+	border-color:       #CBCBCB;
+	background:         #FFF8ED;
+	color:              #000000;
+}
+
+
+/*******************************************************************************
+ * styles for the web site
+ *******************************************************************************/
+
+/*-----------------------------------------------------------------*/
+body {
+	padding:            0.0em;
+	margin:             0.0em;
+	margin-top:         0.0em;
+	border:             0.0em;
+	font-size:          medium;
+	font-family:        "Verdana";
+}
+
+/*-----------------------------------------------------------------*/
+code {
+    font-weight:        bold;
+}
+
+/*-----------------------------------------------------------------*/
+pre, xmp {
+    overflow:           auto;
+	border-width:       1px;
+	border-style:       dotted;
+	padding-top:        0.4em;
+    padding-bottom:     0.4em;
+    padding-left:       1.4em;
+    padding-right:      1.4em;
+    margin-left:        1.4em;
+    margin-right:       1.4em;
+}
+
+/*-----------------------------------------------------------------*/
+dt {
+	font-weight:        bold;
+}
+
+/*-----------------------------------------------------------------*/
+dd {
+	padding-bottom:     0.5em;
+}
+
+/*-----------------------------------------------------------------*/
+li {
+	padding-top:        0.25em;
+	padding-bottom:     0.25em;
+}
+
+/*-----------------------------------------------------------------*/
+h1,h2,h3,h4,h5 {
+	padding-left:       0.3em;
+	padding-right:      0.3em;
+	padding-top:        0.3em;
+	padding-bottom:     0.3em;
+}
+
+/*-----------------------------------------------------------------*/
+.indent {
+    margin-left:         3em;
+}
+
+/*-----------------------------------------------------------------*/
+.updated-on {
+    font-size:           80%;
+    font-style:          italic;
+    margin-left:         3em;
+}
+
+/*-----------------------------------------------------------------*/
+.page-title {
+	font-size:           200%;
+	font-weight:         bold;
+	margin-left:         1.0em; 
+}
+
+/*-----------------------------------------------------------------*/
+.site-header {
+/*
+	margin-bottom:         0.0em;
+	padding-left:          0.0em;
+	padding-top:           0.0em;
+	padding-bottom:        0.0em;
+*/
+}
+
+/*-----------------------------------------------------------------*/
+.site-footer {
+	padding-top:           0.5em;
+	padding-bottom:        0.0em;
+	padding-left:          1.0em;
+	padding-right:         1.0em;
+	margin-top:            1.0em;
+	font-size:             x-small;
+	border-top:            4px solid #FFFF7F;
+ }
+ 
+/*-----------------------------------------------------------------*/
+.site-menu-cell {
+	border-width:  0;
+	border-style:  solid;
+	padding:       0.5em;
+}
+
+ /*-----------------------------------------------------------------*/
+.site-body-cell {
+ 	padding-left:  2.0em;
+ 	padding-right: 2.0em;
+ }
+
+ /*-----------------------------------------------------------------*/
+td.site-menu-item-0,
+td.site-menu-item-1,
+td.site-menu-item-2,
+td.site-menu-item-3 {
+	font-size:      80%;
+}
+
+td.site-menu-item-0 {
+	font-weight:    bold;
+	padding-top:    0.25em; 
+	padding-bottom: 0.25em; 
+}
+
+td.site-menu-item-1 {
+	padding-left:   1em;
+	font-weight:    bold;
+	padding-top:    0.25em; 
+	padding-bottom: 0.25em; 
+}
+
+td.site-menu-item-2 {
+	padding-left:   2.0em;
+}
+
+td.site-menu-item-3 {
+	padding-left:   3.0em;
+}
+
+li.site-menu-cell:before {
+	marker-offset: 1em;
+}
+
+/*-----------------------------------------------------------------*/
+@media print {
+    .noprint { display: none }
+    
+    body {
+    	background:         #FFFFFF;
+    	font-size:          small;
+	}
+}
