@@ -2,6 +2,8 @@
  * colors for the web site
  *******************************************************************************/
 
+/* holly springs purple = #592A8A, was #990099 */
+
 /*-----------------------------------------------------------------*/
 body {
 	background:         #DFDFDF;
@@ -17,19 +19,19 @@ a:hover                   { background: #7F007F; color: #FFFFFF }
 .site-menu-cell a:link    { color:      #FFFF7F }    
 .site-menu-cell a:visited { color:      #FFFF7F }   
 .site-menu-cell a:active  { color:      #FFFF7F }   
-.site-menu-cell a:hover   { background: #FFFF7F; color: #990099 } 
+.site-menu-cell a:hover   { background: #FFFF7F; color: #592A8A } 
 
 .site-footer a:link       { color:      #FFFF7F }    
 .site-footer a:visited    { color:      #FFFF7F }   
 .site-footer a:active     { color:      #FFFF7F }   
-.site-footer a:hover      { background: #FFFF7F; color: #990099 } 
+.site-footer a:hover      { background: #FFFF7F; color: #592A8A } 
 
 /*-----------------------------------------------------------------*/
 h1,h2,h3,h4,h5,
 .site-header,
 .site-footer,
 .site-menu-cell {
-	background:         #990099;
+	background:         #592A8A;
 	color:              #FFFF7F;
 }
 
