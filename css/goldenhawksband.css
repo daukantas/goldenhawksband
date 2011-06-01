@@ -11,10 +11,10 @@ body {
 }
 
 /*-----------------------------------------------------------------*/
-a:link                    { color:      #7F007F }    
-a:visited                 { color:      #7F007F }   
-a:active                  { color:      #7F007F }   
-a:hover                   { background: #7F007F; color: #FFFFFF } 
+a:link                    { color:      #592A8A }    
+a:visited                 { color:      #592A8A }   
+a:active                  { color:      #592A8A }   
+a:hover                   { background: #592A8A; color: #FFFF7F } 
 
 .site-menu-cell a:link    { color:      #FFFF7F }    
 .site-menu-cell a:visited { color:      #FFFF7F }   
