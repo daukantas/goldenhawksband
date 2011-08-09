@@ -16,30 +16,6 @@
 		<link rel="stylesheet"		href="<%= page_root_path %>/css/goldenhawksband.css" type="text/css" />
 		<link rel="shortcut icon"	href="<%= page_root_path %>/images/hawk_logo_32x32.gif"/>
 		<link rel="icon"			href="<%= page_root_path %>/images/hawk_logo_32x32.gif"/>
-		
-		<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery-1.2.1.min.js"></script>
-		<script type="text/javascript" src="<%= page_root_path %>/scripts/ui.shadow.js"></script>
-		<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery.dimensions.min.js"></script>
-		<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery.gradient.min.js"></script>
-		<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery.curvycorners.packed"></script>
-		
-		<script type="text/javascript" src="<%= page_root_path %>/scripts/onload.js"></script>
-		
-		<script>
-		$(document).ready(function(){
-			ghb_onload()
-		 });		
-		</script>
-        <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-        try {
-        var pageTracker = _gat._getTracker("UA-736164-6");
-        pageTracker._trackPageview();
-        } catch(err) {}</script>		
-		
 	</head>
 
 	<body>
@@ -104,4 +80,31 @@
 		</div>
 
 	</body>
+	
+<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery-1.2.1.min.js"></script>
+<script type="text/javascript" src="<%= page_root_path %>/scripts/ui.shadow.js"></script>
+<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery.dimensions.min.js"></script>
+<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery.gradient.min.js"></script>
+<script type="text/javascript" src="<%= page_root_path %>/scripts/jquery.curvycorners.packed"></script>
+
+<script type="text/javascript" src="<%= page_root_path %>/scripts/onload.js"></script>
+
+<script>
+$(document).ready(function(){
+    ghb_onload()
+ });		
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-736164-6");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>		
+	
 </html>
