@@ -2,7 +2,8 @@
  * colors for the web site
  *******************************************************************************/
 
-/* holly springs purple = #592A8A, was #990099 */
+/* holly springs text       purple = #592A8A */
+/* holly springs background purple = #7358B8 */
 
 /*-----------------------------------------------------------------*/
 body {
@@ -38,7 +39,7 @@ h1,h2,h3,h4,h5,
 .site-header,
 .site-footer,
 .site-menu-cell {
-	background:         #592A8A;
+	background:         #7358B8;
 	color:              #FFFF7F;
 }
 
