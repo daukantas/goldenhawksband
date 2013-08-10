@@ -4,7 +4,7 @@
 
 require 'time'
 require 'rake/clean'
-require 'plugins/page'
+require './plugins/page'
 
 CLEAN.include("**/*.html")
 
