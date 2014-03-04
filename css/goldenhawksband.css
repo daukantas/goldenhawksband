@@ -24,8 +24,20 @@ body {
 }
 
 /*-----------------------------------------------------------------*/
-table.spacey tr td { 
-    padding:            0em 1em; 
+table.spacey tr td {
+    padding:            0em 1em;
+    vertical-align:     top;
+    text-align:         left;
+}
+
+table.spacey tr th {
+    padding:            0em 1em;
+    vertical-align:     top;
+    text-align:         left;
+}
+
+th {
+    font-weight:        bold;
 }
 
 /*-----------------------------------------------------------------*/
