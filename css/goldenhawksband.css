@@ -13,13 +13,19 @@ body {
 
 /*-----------------------------------------------------------------*/
 .headline {
-    font-size:             120%;
-    font-weight:           bold;
+  font-size:             120%;
+  font-weight:           bold;
 	color:                 #592A8A;
 	background-color:      #DFDF7F;
 	padding:               0.5em;
-    border-radius:         0.5em;
-    border:                thin solid #592A8A;
+  border-radius:         0.5em;
+  border:                thin solid #592A8A;
+	margin:								 0.5em 0;
+}
+
+/*-----------------------------------------------------------------*/
+.old-news {
+	margin:								 1.0em 0;
 }
 
 /*-----------------------------------------------------------------*/
